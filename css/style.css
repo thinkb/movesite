@@ -57,3 +57,17 @@ background-color: #eee;
 .icon-block .material-icons {
 	font-size: inherit;
 }
+
+.lateraldireita{
+position: absolute;
+top:0;
+}
+
+.lateral{
+  width: 20%
+}
+
+.lateralesquerda{
+position: absolute;
+bottom:0;
+}
