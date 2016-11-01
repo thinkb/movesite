@@ -10,6 +10,43 @@ body{
 background-color: #eee;
 }
 
+@font-face {
+    font-family: 'From Where You Are';
+    src: url('fonts/fromwhereyouare-webfont.woff2') format('woff2'),
+         url('fonts/fromwhereyouare-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Mikado Regular';
+    src: url('fonts/mikado_regular-webfont.woff2') format('woff2'),
+         url('fonts/mikado_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+     font-family: 'Mikado Medium';
+     src: url('fonts/mikado_medium-webfont.woff2') format('woff2'),
+          url('fonts/mikado_medium-webfont.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+
+ }
+
+ @font-face {
+    font-family: 'Mikado Bold';
+    src: url('fonts/mikado_bold-webfont.woff2') format('woff2'),
+         url('fonts/mikado_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
 .write{
   background-color: #FFF;
 }
