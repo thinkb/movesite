@@ -61,11 +61,13 @@ background-color: #eee;
 .lateraldireita{
 position: absolute;
 top:0;
+z-index: 1;
 }
 
 .lateral{
-  width: 50%;
-  margin-top: 30px;
+left: 0;
+top:0;
+width: 100%;
 }
 
 
@@ -100,11 +102,20 @@ padding-top: 5px;
   background-image: url(../img/pattern-purple.png);
   padding: 2% !important;
   bottom: 0px;
-  border-radius: 150px 2px 2px 150px;
+  border-radius: 50px 2px 2px 50px;
+  -webkit-box-shadow: 6px 7px 55px -7px rgba(0,0,0,0.61);
+  -moz-box-shadow: 6px 7px 55px -7px rgba(0,0,0,0.61);
+  box-shadow: 6px 7px 55px -7px rgba(0,0,0,0.61);
 }
 
 .pais{
-  padding: 2% !important;
+  padding-top: 20px;
+  padding-left: 5% !important;
+  padding-right:5% !important;
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-image: url(../img/coelho1.png);
+
 }
 
 .numeros{
@@ -128,17 +139,17 @@ box-shadow: 6px 7px 55px -7px rgba(0,0,0,0.61);
 
 .plaquinha{
   background-color: #FFF;
-  border: 18px solid #5a58a1;
-  border-radius: 20px;
-  text-align: center;
-  padding: 20px;
-  width: 50%;
-  margin-left: 40%;
-  margin-top: 50px;
-  -webkit-box-shadow: 6px 7px 55px -7px rgba(0,0,0,0.61);
-  -moz-box-shadow: 6px 7px 55px -7px rgba(0,0,0,0.61);
-  box-shadow: 6px 7px 55px -7px rgba(0,0,0,0.61);
-  z-index: 20;
+    border: 18px solid #5a58a1;
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+    width: 70%;
+    margin-left: -5%;
+    margin-top: 50px;
+      -webkit-box-shadow: 6px 7px 55px -7px rgba(0,0,0,0.61);
+      -moz-box-shadow: 6px 7px 55px -7px rgba(0,0,0,0.61);
+      box-shadow: 6px 7px 55px -7px rgba(0,0,0,0.61);
+      z-index: 20;
 }
 
 .tracoazul{
@@ -157,6 +168,77 @@ box-shadow: 6px 7px 55px -7px rgba(0,0,0,0.61);
   font-size: 0.8em !important;
   color: #83709d;
 }
+
+.ajus{
+    width: 100%;
+    max-width: none;
+}
+
+.margintext{
+  margin-bottom: 20px;
+}
+
+.minhaDiv
+{
+   background-image: url('https://g.twimg.com/Twitter_logo_blue.png'); /* endereço URL da imagem */
+   background-position:center; /* centraliza apenas o background - para não cortar */
+   height: 500px; /* defina a largura da imagem */
+   width: 500px; /* defina a altura da imagem */
+   background-repeat:no-repeat; /* para não repetir o background */
+}
+
+#saiba{
+  background:
+  url(../img/imagem1_02.png) top left no-repeat,
+  url(../img/guepardobg.png) top right no-repeat;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+#produtos{
+  background:
+  url(../img/lat.png) top right no-repeat,
+  url(../img/coelho2.png) bottom left no-repeat,
+  url(../img/imagem1_03.png) top left no-repeat;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+#index-banner{
+  background:
+  url(../img/imagem1_01.png) top left no-repeat,
+  url(../img/detalhetopo.png) top right no-repeat;
+
+}
+
+#pais{
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-image: url(../img/lat2.png);
+}
+
+.rodape{
+  font-size: 1em;
+}
+
+a{
+  font-weight: bold;
+}
+
+
+.ajustes{
+  margin-bottom: 2px !important;
+  margin-right: 0px !important;
+}
+.numeros h4, h5{
+    text-shadow: 2px 2px 8px rgba(11, 44, 93, 0.73);;
+}
+
+.textdados{
+    padding-top: 20px !important;
+    font-size: 1.5em;
+  }
+
 
 .textdestaque {
   color:#2faed1;
@@ -218,6 +300,8 @@ h5{
   color: #636363;
   text-align: left;
   font-size: 1.6em;
+  margin-top: 17px;
+  margin-bottom: 5px;
 }
 
 ::-webkit-input-placeholder {
