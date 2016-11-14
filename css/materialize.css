@@ -4126,7 +4126,8 @@ nav ul li.active {
 nav ul a {
   transition: background-color .3s;
   font-size: 1rem;
-  color: #fff;
+  color: #5e5ca7;
+  font-family: "From where you are";
   display: block;
   padding: 0 15px;
   cursor: pointer;

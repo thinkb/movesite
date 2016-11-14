@@ -64,10 +64,37 @@ top:0;
 }
 
 .lateral{
-  width: 20%
+  width: 50%;
+  margin-top: 30px;
 }
 
 .lateralesquerda{
 position: absolute;
 bottom:0;
+}
+
+.plaquinha{
+  background-color: #FFF;
+  border: 10px solid #5a58a1;
+  border-radius: 20px;
+  text-align: center;
+  padding: 20px;
+  width: 50%;
+  margin-left: 40%;
+  margin-top: 50px;
+  -webkit-box-shadow: 6px 7px 55px -7px rgba(0,0,0,0.61);
+  -moz-box-shadow: 6px 7px 55px -7px rgba(0,0,0,0.61);
+  box-shadow: 6px 7px 55px -7px rgba(0,0,0,0.61);
+}
+
+.textoplaquinha{
+  font-family: "From where you are";
+  color:#5e5ca7;
+  font-size: 2.5em;
+  line-height: 1.3em;
+}
+
+.lightplaquinha{
+  font-size: 0.8em !important;
+  color: #83709d;
 }
