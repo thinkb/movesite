@@ -68,9 +68,27 @@ top:0;
   margin-top: 30px;
 }
 
+
+.detalhecanto{
+  position: absolute;
+  right:0;
+  top: 0;
+}
+
+.lateral2{
+  margin-top: 30px;
+}
+
 .lateralesquerda{
 position: absolute;
 bottom:0;
+}
+
+.iconbichos{
+  width: 80px;
+  -webkit-box-shadow: 6px 7px 55px -7px rgba(0,0,0,0.61);
+-moz-box-shadow: 6px 7px 55px -7px rgba(0,0,0,0.61);
+box-shadow: 6px 7px 55px -7px rgba(0,0,0,0.61);
 }
 
 .plaquinha{
@@ -87,6 +105,10 @@ bottom:0;
   box-shadow: 6px 7px 55px -7px rgba(0,0,0,0.61);
 }
 
+.tracoazul{
+  color: #2faed1;
+}
+
 .textoplaquinha{
   font-family: "From where you are";
   color:#5e5ca7;
@@ -97,4 +119,13 @@ bottom:0;
 .lightplaquinha{
   font-size: 0.8em !important;
   color: #83709d;
+}
+
+.textdestaque {
+  color:#2faed1;
+  font-weight: bold;
+}
+
+h5, p{
+  color: #636363;
 }
