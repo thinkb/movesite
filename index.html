@@ -8,6 +8,8 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <!--<link rel="shortcut icon" type="image/png" href="favicon.png"/> -->
+  <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
   <link rel="stylesheet" href="css/libs/animate.css">
 </head>
 <body>
@@ -29,7 +31,7 @@
 
 
   <div class="section no-pad-bot" id="index-banner">
-    <div class="container ajus">
+    <div class="container ajus" id="fistdiv">
       <br><br>
       <div class="row ajustes">
         <div class="col s7 offset-s5">
@@ -76,13 +78,13 @@
             <p class="margintext">Move é uma plataforma onde você aceita desafios físicos,
               acompanha seu desempenho, pode desafiar amigos e ganha recompensas a cada meta completa. </p>
               <div class="row">
-                <div class="col s2">
+                <div class="col s2 wow fadeIn">
                   <div class="comentariovideo">
                     Assista<br> o vídeo
                   </div>
                     <img src="img/seta.png" alt="" />
                 </div>
-                <div class="col s10">
+                <div class="col s10 wow fadeIn">
                   <iframe class="videoy" width="560" height="315" src="https://www.youtube.com/embed/3GSWa9vy7P4" frameborder="0" allowfullscreen></iframe>
                 </div>
               </div>
@@ -97,15 +99,18 @@
     <div class="section">
       <div class="row">
         <div class="col s10 offset-s1">
-            <h2  class="center">Leve para onde quiser</h2>
+            <h2 class="center wow fadeInDown">Leve para onde quiser</h2>
             <p>Com a pulseira Misfit Move você mede seu desempenho  nas atividades
               físicas que realiza e ainda pode colecionar stickers para mostrar para seus amigos os desafios completos.</p>
               <div class="row">
                 <div class="carousel">
-                    <a class="carousel-item" href="#one!"><img src="img/pulseira1.png"></a>
+                    <a class="carousel-item" href="#one!"><img src="img/pulseira3.png"></a>
                     <a class="carousel-item" href="#two!"><img src="img/pulseira2.png"></a>
-                    <a class="carousel-item" href="#three!"><img src="img/pulseira3.png"></a>
+                    <a class="carousel-item" href="#three!"><img src="img/pulseira1.png"></a>
                   </div>
+                </div>
+                <div class="row">
+                  <a href="https://misfit.com/fitness-trackers/misfit-flash" id="loginButton" class="waves-effect waves-light btn right"><i class="material-icons right">keyboard_arrow_right</i>Comprar</a>
                 </div>
               </div>
         </div>
@@ -119,7 +124,7 @@
     <div class="">
       <div class="row">
         <div class="col s8 pais">
-            <h2 class="center">Acompanhe as atividades</h2>
+            <h2 class="center wow fadeInDown">Acompanhe as atividades</h2>
             <p>Pais e professores podem utilizar a plataforma para acompanhar o desempenho das contas cadastradas,
               criar desafios personalizados e metas em grupo ou individuais.<br> Um relatório semanal também pode
               ser enviado ao email cadastrado com os gráficos de desempenho em cada atividade e meta específica.  </p>
@@ -129,31 +134,31 @@
                 <h5>Dados do gerais <br> aplicativo:</h5>
               </div>
               <div class="col s4">
-                <h4>233</h4>
+                <h4>14</h4>
                 <h5>Usuários</h5>
               </div>
               <div class="col s4">
-                <h4>233</h4>
+                <h4>733</h4>
                 <h5>Calorias</h5>
               </div>
             </div>
             <div class="row center">
               <div class="col s4">
-                <h4>233</h4>
+                <h4>1834</h4>
                 <h5>Passos</h5>
               </div>
               <div class="col s4">
-                <h4>233</h4>
+                <h4>5km</h4>
                 <h5>Distância</h5>
               </div>
               <div class="col s4">
-                <h4>233</h4>
+                <h4>6</h4>
                 <h5>Desafios</h5>
               </div>
             </div>
           </div>
         </div>
-        <div class="col s4 contato wow slideInRight">
+        <div class="col s4 contato wow slideInRight" data-wow-duration="1s">
             <h2 id="contato" class="center">Contato</h2>
             <div class="row">
               <span id="feedname" class="feedback"></span>
@@ -181,14 +186,14 @@
       <div class="container">
       <div class="row">
         <div class="col s2">
-
+          <a href="https://www.facebook.com/aplicativomove/"><img class="face" src="img/face.svg" alt="" /></a>
         </div>
         <div class="col s8">
           <p class="text-write rodape">Move 2016 - Trabalho de conclusão de curso
             <a href="#">acesse aqui</a> a cláusula de direitos autorais.</p>
         </div>
         <div class="col s2">
-
+        <a href="#"></a><img class="logoanhembi" src="img/logo-anhembi.png" alt="" />
         </div>
       </div>
       </div>
@@ -196,34 +201,38 @@
   </footer>
 
   <div id="modal1" class="modal">
-      <div class="modal-content">
-        <h4>Rapha</h4>
+      <div class="modal-content center">
+        <h4 class="yellowc">Rapha</h4>
+        <img class="imgbicho" src="img/rafa.png" alt="" />
         <p>Ativo e o mais engraçado dos treinadores. Velocidade é o seu segundo nome.</p>
       </div>
       <div class="modal-footer">
-        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Fechar</a>
+        <a id="rapha" href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Fechar</a>
       </div>
   </div>
 
   <div id="modal2" class="modal">
-      <div class="modal-content">
-        <h4>Lê</h4>
+      <div  class="modal-content center">
+        <h4 class="pinkc">Lê</h4>
+        <img class="imgbicho" src="img/le.png" alt="" />
         <p>Pula, pula e pula! Só sabe fazer uma coisa o tempo todo, pular e dançar. <br>
            Adora música, bambolês e saltar o dia todo. Tem temperamento forte e sabe sempre o que quer.</p>
       </div>
       <div class="modal-footer">
-        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Fechar</a>
+        <a id="le" href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Fechar</a>
       </div>
   </div>
 
   <div id="modal3" class="modal">
-      <div class="modal-content">
-        <h4>Minduin</h4>
+      <div class="modal-content  center">
+        <img src="" alt="" />
+        <h4 class="orangec">Minduin</h4>
+        <img class="imgbicho" src="img/minduim.png" alt="" />
         <p>Adora brincar com bolas, quantas mais melhor, é fofo, divertido, <br>
            ama esportes e sempre está pronto para brincar!</p>
       </div>
       <div class="modal-footer">
-        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Fechar</a>
+        <a id="minduin" href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Fechar</a>
       </div>
   </div>
 
@@ -287,5 +296,23 @@ $(document).ready(function(){
 
 </script>
 
+
+<script type="text/javascript">
+  $('#rapha').click(function(){
+    $('#modal1').modal('close');
+
+});
+
+$('#le').click(function(){
+  $('#modal2').modal('close');
+
+});
+
+$('#minduin').click(function(){
+  $('#modal3').modal('close');
+
+});
+
+</script>
   </body>
 </html>

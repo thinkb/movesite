@@ -123,11 +123,17 @@ padding-top: 5px;
   background-image: url(../img/pattern-blue.png);
 }
 
+.logoanhembi{
+      padding-top: 10px;
+}
+
 .contato h2{
   color: #FFF;
 }
-.lateral3{
 
+.face{
+  width: 50px;
+  margin-top: 10px;
 }
 
 .iconbichos{
@@ -193,6 +199,9 @@ box-shadow: 6px 7px 55px -7px rgba(0,0,0,0.61);
   url(../img/guepardobg.png) top right no-repeat;
   padding-left: 15%;
   padding-right: 15%;
+  max-height: 667.36px;
+  min-height: 667.36px;
+
 }
 
 #produtos{
@@ -202,6 +211,8 @@ box-shadow: 6px 7px 55px -7px rgba(0,0,0,0.61);
   url(../img/imagem1_03.png) top left no-repeat;
   padding-left: 15%;
   padding-right: 15%;
+  max-height: 685.36px;
+  min-height: 685.36px;
 }
 
 #index-banner{
@@ -209,12 +220,20 @@ box-shadow: 6px 7px 55px -7px rgba(0,0,0,0.61);
   url(../img/imagem1_01.png) top left no-repeat,
   url(../img/detalhetopo.png) top right no-repeat;
 
+
+}
+
+#fistdiv{
+  max-height: 579.36px;
+  min-height: 579.36px;
 }
 
 #pais{
   background-repeat: no-repeat;
   background-position: right top;
   background-image: url(../img/lat2.png);
+  max-height: 531.2px;
+  min-height: 531.2px;
 }
 
 .rodape{
@@ -318,4 +337,19 @@ h5{
 
 :-ms-input-placeholder {
    color: #30aed1;
+}
+
+.imgbicho{
+  width: 70%;
+}
+.orangec{
+  color: #F89E1C;
+}
+
+.pinkc{
+  color: #D14286;
+}
+
+.yellowc{
+  color: #F1CE13;
 }

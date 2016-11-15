@@ -4851,6 +4851,7 @@ small {
   height: 36px;
   line-height: 36px;
   padding: 0 2rem;
+  margin-top: -60px;
   text-transform: uppercase;
   vertical-align: middle;
   -webkit-tap-highlight-color: transparent;
@@ -5311,18 +5312,17 @@ button.btn-floating {
 }
 
 .modal {
-  display: none;
-  position: fixed;
-  left: 0;
-  right: 0;
-  background-color: #fafafa;
-  padding: 0;
-  max-height: 70%;
-  width: 55%;
-  margin: auto;
-  overflow-y: auto;
-  border-radius: 2px;
-  will-change: top, opacity;
+      display: none;
+      position: fixed;
+      left: 0;
+      right: 0;
+      background-color: #fafafa;
+      padding: 0;
+      width: 30%;
+      margin: auto;
+      overflow-y: auto;
+      border-radius: 50px;
+      will-change: top, opacity;
 }
 
 @media only screen and (max-width: 992px) {
@@ -7679,8 +7679,10 @@ input[type=range]:focus::-ms-fill-upper {
   position: relative;
   width: 100%;
   height: 400px;
-  -webkit-perspective: 500px;
-          perspective: 500px;
+  margin-top: -60px;
+  margin-left: -40px;
+  -webkit-perspective: 900px;
+          perspective: 900px;
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
   -webkit-transform-origin: 0% 50%;
@@ -7727,14 +7729,14 @@ input[type=range]:focus::-ms-fill-upper {
 .carousel .carousel-item {
   display: none;
   width: 200px;
-  height: 400px;
+  height: 500px;
   position: absolute;
   top: 0;
   left: 0;
 }
 
 .carousel .carousel-item img {
-  width: 100%;
+  width: 140%;
 }
 
 .carousel .indicators {
